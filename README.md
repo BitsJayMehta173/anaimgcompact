@@ -24,3 +24,5 @@ Hope it Might Work
 Takling about compression we can also use a modification technique which matches the similarity of two pixels and if the similarities are very low we can change the pixels boundaries range optimally viable and also optically correct to a same rgb value to increase the DCT this will help us in compressing the image file and .bin file
 because as of now we are considering all pixels and storing it but we can use DCT to make a block of specific height and width and store the single value for it we can combine DCT with A.N.A to create a better blocks for now
 
+The process is quite time consuming and right now with exisiting compression technique we cant compare it but we can use it in time when the actual image is captured to process the image then convert it into our format and then apply exisiting compression methods.
+
