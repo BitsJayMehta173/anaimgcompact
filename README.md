@@ -20,3 +20,7 @@ but to be practicle frequently used pictures needs more attention for compressio
 Future Updates:
 But I am working with (ANA🌻) aka A.NEGATION.ANALYSIS Method to further minimize the size. The idea is just an assumption or imagination and works in my mind but cant be practical right now as the idea doesn't grow if i am practical. I am implementing it and it has multiple layers and works on blocks intelligently so it needs a proper hard coding before progressing with a fully functional intelligent prototype. 
 Hope it Might Work 
+
+Takling about compression we can also use a modification technique which matches the similarity of two pixels and if the similarities are very low we can change the pixels boundaries range optimally viable and also optically correct to a same rgb value to increase the DCT this will help us in compressing the image file and .bin file
+because as of now we are considering all pixels and storing it but we can use DCT to make a block of specific height and width and store the single value for it we can combine DCT with A.N.A to create a better blocks for now
+
