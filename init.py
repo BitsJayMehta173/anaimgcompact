@@ -19,7 +19,7 @@ for y in range(height):
         if single_value in dictionary:
             dictionary[single_value]+=1
             if maxi<dictionary[single_value]:
-                maxi=single_value
+                maxi=dictionary[single_value]
                 maxipix=single_value
         else:
             dictionary[single_value]=1
